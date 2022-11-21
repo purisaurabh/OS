@@ -36,7 +36,7 @@ void initialize()
 
 
 bool is_hit(int data)
-{
+{ 
     for (int j = 0; j < no_of_frames; j++)
     {
         if (p[j] == data)
@@ -97,7 +97,7 @@ void fifo()
         }
 
         else
-        {
+        { 
             printf("No page fault");
         }
     }
