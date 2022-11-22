@@ -10,7 +10,7 @@ do
 	case $opt in
 
 1)
-		printf "Enter filename : "
+		printf "Enter the filename : "
 		read fileName
 		if [ -e $fileName ] ; then
 			rm $fileName
