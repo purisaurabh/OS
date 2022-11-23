@@ -4,7 +4,7 @@ opt=1
 while [ "$opt" -lt 6 ]
 do
 
-	printf "1. Create Address Book\n2. View Records\n3 .Insert new Record\n4. Delete a Record\n5. Modify a Record\n6. Exit\n\n"
+	printf "1. Create Address Book\n2. View the Records\n3 .Insert new Record\n4. Delete a Record\n5. Modify a Record\n6. Exit\n\n"
 	
 	read opt
 	case $opt in
