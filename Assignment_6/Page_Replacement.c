@@ -11,7 +11,7 @@ int n;
 
 void get_data()
 {
-    printf("\nEnter length of page reference sequence:");
+    printf("\nEnter length of the page reference sequence:");
     scanf("%d", &n);
 
     printf("\nEnter the page reference sequence:");
